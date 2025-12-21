@@ -576,6 +576,7 @@ height: </xsl:text>
                 <xsl:with-param name="title">Title page</xsl:with-param>
               </xsl:call-template>
               <title>Title page</title>
+              <link href="stylesheet.css" rel="stylesheet" type="text/css" />
               <style type="text/css" title="override_css">
 		@page {padding: 0pt; margin:0pt}
 		body { text-align: center; padding:0pt; margin: 0pt; }
@@ -649,6 +650,7 @@ height: </xsl:text>
               <xsl:call-template name="metaHTML">
                 <xsl:with-param name="title">About this book</xsl:with-param>
               </xsl:call-template>
+              <link href="stylesheet.css" rel="stylesheet" type="text/css" />
               <title>About this book</title>
             </head>
             <body>
